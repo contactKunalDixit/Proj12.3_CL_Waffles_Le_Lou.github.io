@@ -1,8 +1,8 @@
 @import url('reset.css');
 
 :root {
-	--left-bg-color: rgba(93, 92, 194, 0.531);
-	--right-bg-color: rgba(174, 149, 149, 0.5);
+	--left-bg-color: rgba(93, 91, 194, 0.2);
+	--right-bg-color: rgba(174, 149, 149, 0.3);
 	--left-btn-hover-color: rgba(88, 85, 236, 0.5);
 	--right-btn-hover-color: rgba(43, 43, 43, 0.7);
 	--hover-width: 75%;
@@ -20,11 +20,6 @@ body {
 	justify-content: center;
 	height: 100vh;
 	overflow: hidden;
-}
-
-a {
-	text-decoration: none;
-	color: #ffffff;
 }
 
 .container {
@@ -48,7 +43,7 @@ a {
 
 .split.left {
 	left: 0;
-	background-image: url('./images/Banner2.jpeg');
+	background-image: url('./images/Banner\ 4.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
