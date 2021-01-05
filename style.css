@@ -1,8 +1,8 @@
 @import url('reset.css');
 
 :root {
-	--left-bg-color: rgba(93, 91, 194, 0.2);
-	--right-bg-color: rgba(174, 149, 149, 0.3);
+	--left-bg-color: rgba(153, 177, 238, 0.2);
+	--right-bg-color: rgba(238, 214, 153, 0.2);
 	--left-btn-hover-color: rgba(88, 85, 236, 0.5);
 	--right-btn-hover-color: rgba(43, 43, 43, 0.7);
 	--hover-width: 75%;
@@ -28,10 +28,10 @@ body {
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.429);
+	background-color: rgba(246, 199, 236, 0.3);
 }
 
-.split h2 {
+.brandTitle h1 {
 	white-space: nowrap;
 }
 .split {
@@ -81,10 +81,9 @@ button {
 	position: absolute;
 	top: 70%;
 	left: 50%;
-	/* bottom: 30%; */
 	transform: translate(-50%, -50%);
 	font-size: 1rem;
-	padding: 1rem;
+	padding: 0.5rem 1rem;
 	text-transform: uppercase;
 	border-radius: 10%;
 }
